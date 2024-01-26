@@ -1,0 +1,41 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>character string</title>
+    <!-- <link href="./zifuchuan.js" type="text/javascript"> -->
+    <script type="text/javascript" src="./zifuchuan.js">
+    </script>
+    <style>
+        body {
+            text-align: center;
+            padding-top: 50px;
+        }
+    
+        input[type="text"] {
+            width: 200px;
+            padding: 5px;
+        }
+    
+        button {
+            padding: 5px 10px;
+        }
+    
+        #result {
+            margin-top: 20px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>子串出现次数统计</h1>
+    请输入一个字符串:<input type="text" id="stringInput" placeholder="请输入一个字符串">
+    请输入一个子串:<input type="text" id="substringInput" placeholder="请输入一个子串">
+    <button onclick="count()">提交</button>
+    <div id="result"></div>
+</body>
+
+</html>
